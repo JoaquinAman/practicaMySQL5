@@ -1,0 +1,17 @@
+3.1.a
+CREATE TABLE tablaEjempl(id int, nombre varchar(255));
+
+3.1.b
+INSERT INTO tablaEjempl (id, nombre) VALUES (3, 'sebastian')
+INSERT INTO tablaEjempl (id, nombre) VALUES (4, 'fermin')
+INSERT INTO tablaEjempl (id, nombre) VALUES (1, 'juan')
+INSERT INTO tablaEjempl (id, nombre) VALUES (2, 'pepe')
+
+3.1.c
+SELECT * FROM tablaEjempl
+
+3.1.d
+ALTER TABLE tablaEjempl ADD CONSTRAINT pk_id PRIMARY KEY(id)
+
+3.1.e
+SELECT * FROM tablaEjempl
